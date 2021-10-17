@@ -1,0 +1,16 @@
+.section {
+  margin-bottom: 50px;
+}
+
+.section > .section-title {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    margin-bottom: 10px;
+  }
+  .section > .section-title {
+    margin-top: 10px;
+  }
+}

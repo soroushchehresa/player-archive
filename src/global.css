@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css');
+
+body {
+  font-family: Lato;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.page-title {
+  font-size: 40px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-title {
+    font-size: 30px;
+  }
+}
