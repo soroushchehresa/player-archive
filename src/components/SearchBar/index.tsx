@@ -133,7 +133,7 @@ const SearchBar = () => {
           size="large"
           value={query}
           suffix={
-            <Tooltip title={listening ? 'Stop Listening' : 'Search by voice!'}>
+            browserSupportsSpeechRecognition ? <Tooltip title={listening ? 'Stop Listening' : 'Search by voice!'}>
               <Button
                 className="voice-search"
                 style={{ marginLeft: '5px' }}
@@ -147,7 +147,7 @@ const SearchBar = () => {
                     : handleStartListening
                 }
               />
-            </Tooltip>
+            </Tooltip> : null
           }
           allowClear
         />
