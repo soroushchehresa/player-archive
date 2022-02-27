@@ -24,7 +24,7 @@ Search soccer players' archive by name!
 ### Used Libraries
 - [React](https://github.com/facebook/react)
 - [TypeScript](https://github.com/microsoft/TypeScript)
-- [Sasy Peasy](https://github.com/ctrlplusb/easy-peasy)
+- [Easy Peasy](https://github.com/ctrlplusb/easy-peasy)
 - [Ant Design](https://github.com/ant-design/ant-design)
 - [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition)
 - [Lodash](https://github.com/lodash/lodash)
